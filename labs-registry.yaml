@@ -1,0 +1,755 @@
+# ZCW D3.1 Labs — Repository Registry
+
+# Machine-readable manifest of all ZCW cohort labs.
+# Generated from GitHub audit on 2026-06-25.
+# SHAs populated during migration (null = not yet migrated).
+
+meta:
+  cohort: "ZCW 2022.1 (Java 8.1 + Data 3.1)"
+  owner: jjheffernan
+  monorepo: ZCW-D3.1-Labs
+  audited: "2026-06-25"
+  total_labs: 66
+  completed: 52
+  unstarted: 18
+  excluded_group_projects:
+    - ScientificCalculator.Maven
+    - Django-Auto-Forum
+    - Notification-Rake-Project
+    - saleor-additive-commerce
+
+labs:
+  # ── Java Track ──────────────────────────────────────────
+  - id: java-01-shell-console-lab
+    original_repo: jjheffernan/Shell.Console-Lab
+    parent: ZCW-Java8-0/Shell.Console-Lab
+    path: labs/java/01-shell-console-lab
+    track: java
+    order: 1
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-06-24T04:02:07Z"
+    last_jj: "2022-06-24T04:02:07Z"
+
+  - id: java-02-my-first-fork
+    original_repo: jjheffernan/MyFirstFork
+    parent: ZCW-Java8-0/MyFirstFork
+    path: labs/java/02-my-first-fork
+    track: java
+    order: 2
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-06-24T17:46:01Z"
+    last_jj: "2022-06-24T17:46:01Z"
+
+  - id: java-03-too-large-too-small
+    original_repo: jjheffernan/Maven.TooLargeTooSmall
+    parent: ZipCodeCore/TooLargeTooSmall
+    path: labs/java/03-too-large-too-small
+    track: java
+    order: 3
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-06-23T18:30:49Z"
+    last_jj: "2022-06-27T08:38:22Z"
+
+  - id: java-04-bluej-naive-ticket
+    original_repo: jjheffernan/BlueJ.NaiveTicket
+    parent: ZCW-Java8-1/BlueJ.NaiveTicket
+    path: labs/java/04-bluej-naive-ticket
+    track: java
+    order: 4
+    status: completed
+    jj_commits: 4
+    first_jj: "2022-06-24T04:30:09Z"
+    last_jj: "2022-06-27T08:50:40Z"
+
+  - id: java-05-bluej-dream-house
+    original_repo: jjheffernan/BlueJ.DreamHouseDrawing
+    parent: ZCW-Java8-0/BlueJ.DreamHouseDrawing
+    path: labs/java/05-bluej-dream-house
+    track: java
+    order: 5
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-06-24T04:13:07Z"
+    last_jj: "2022-06-24T04:13:07Z"
+
+  - id: java-06-alice-and-bob
+    original_repo: jjheffernan/Maven.AliceAndBob
+    parent: ZCW-Java8-0/Maven.AliceAndBob
+    path: labs/java/06-alice-and-bob
+    track: java
+    order: 6
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-06-27T07:58:33Z"
+    last_jj: "2022-06-27T08:06:01Z"
+
+  - id: java-07-numbers-triangles-tables
+    original_repo: jjheffernan/Maven.NumbersTrianglesTables
+    parent: ZCW-Java8-0/Maven.NumbersTrianglesTables
+    path: labs/java/07-numbers-triangles-tables
+    track: java
+    order: 7
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-06-28T00:45:21Z"
+    last_jj: "2022-06-28T02:33:36Z"
+
+  - id: java-08-sum-of-input
+    original_repo: jjheffernan/Maven.SumOfInput
+    parent: ZCW-Java8-0/Maven.SumOfInput
+    path: labs/java/08-sum-of-input
+    track: java
+    order: 8
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-06-29T03:16:43Z"
+    last_jj: "2022-06-29T03:26:07Z"
+
+  - id: java-09-eight-one-quiz-1
+    original_repo: jjheffernan/EightOneQuiz1
+    parent: ZCW-Java8-1/EightOneQuiz1
+    path: labs/java/09-eight-one-quiz-1
+    track: java
+    order: 9
+    status: completed
+    jj_commits: 12
+    first_jj: "2022-06-29T13:31:32Z"
+    last_jj: "2022-06-29T15:10:45Z"
+
+  - id: java-10-strings-and-things
+    original_repo: jjheffernan/StringsAndThings
+    parent: ZCW-Java8-0/StringsAndThings
+    path: labs/java/10-strings-and-things
+    track: java
+    order: 10
+    status: completed
+    jj_commits: 3
+    first_jj: "2022-06-30T03:48:16Z"
+    last_jj: "2022-07-04T01:48:16Z"
+
+  - id: java-11-talking-pets
+    original_repo: jjheffernan/Maven.TalkingPets
+    parent: ZCW-Java8-0/Maven.TalkingPets
+    path: labs/java/11-talking-pets
+    track: java
+    order: 11
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-06-30T03:46:40Z"
+    last_jj: "2022-07-05T05:37:47Z"
+
+  - id: java-12-string-array-utilities
+    original_repo: jjheffernan/Maven.StringArrayUtilities
+    parent: ZCW-Java8-0/Maven.StringArrayUtilities
+    path: labs/java/12-string-array-utilities
+    track: java
+    order: 12
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-06-29T04:02:21Z"
+    last_jj: "2022-07-05T05:11:19Z"
+
+  - id: java-13-dan-do-better-drills
+    original_repo: jjheffernan/Maven.DanDoBetterDrills
+    parent: ZCW-Java8-1/Maven.DanDoBetterDrills
+    path: labs/java/13-dan-do-better-drills
+    track: java
+    order: 13
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-05T06:01:23Z"
+    last_jj: "2022-07-05T06:06:56Z"
+
+  - id: java-14-tic-tac-toe
+    original_repo: jjheffernan/Maven.TicTacToe
+    parent: ZCW-Java8-0/Maven.TicTacToe
+    path: labs/java/14-tic-tac-toe
+    track: java
+    order: 14
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-07-09T05:00:47Z"
+    last_jj: "2022-07-09T05:00:47Z"
+
+  - id: java-15-person-details
+    original_repo: jjheffernan/PersonDetails.Maven
+    parent: ZCW-Java8-0/PersonDetails.Maven
+    path: labs/java/15-person-details
+    track: java
+    order: 15
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-16-tdd-animal-factory
+    original_repo: jjheffernan/Maven.TDD-AnimalFactory
+    parent: ZCW-Java8-0/Maven.TDD-AnimalFactory
+    path: labs/java/16-tdd-animal-factory
+    track: java
+    order: 16
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-17-testing-person-class
+    original_repo: jjheffernan/Maven.TestingPersonClass
+    parent: ZCW-Java8-0/Maven.TestingPersonClass
+    path: labs/java/17-testing-person-class
+    track: java
+    order: 17
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-18-dicey-lab
+    original_repo: jjheffernan/DiceyLab.Maven
+    parent: ZCW-Java8-0/DiceyLab.Maven
+    path: labs/java/18-dicey-lab
+    track: java
+    order: 18
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-19-graded-students
+    original_repo: jjheffernan/Maven.GradedStudents
+    parent: ZCW-Java8-0/Maven.GradedStudents
+    path: labs/java/19-graded-students
+    track: java
+    order: 19
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-20-comparable-pets
+    original_repo: jjheffernan/Maven.ComparablePets
+    parent: ZipCodeCore/Maven.ComparablePets
+    path: labs/java/20-comparable-pets
+    track: java
+    order: 20
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-21-cash-machine
+    original_repo: jjheffernan/CashMachine
+    parent: ZCW-Java8-1/CashMachine
+    path: labs/java/21-cash-machine
+    track: java
+    order: 21
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-22-phone-book
+    original_repo: jjheffernan/PhoneBook.Maven
+    parent: ZCW-Java8-0/PhoneBook.Maven
+    path: labs/java/22-phone-book
+    track: java
+    order: 22
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-23-playlist-challenge
+    original_repo: jjheffernan/PlaylistChallenge
+    parent: ZCW-Java8-0/PlaylistChallenge
+    path: labs/java/23-playlist-challenge
+    track: java
+    order: 23
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-24-product-inventory
+    original_repo: jjheffernan/Product-Inventory-Lab
+    parent: ZCW-Java8-0/Product-Inventory-Lab
+    path: labs/java/24-product-inventory
+    track: java
+    order: 24
+    status: unstarted
+    jj_commits: 0
+
+  - id: java-25-grep-catch-em-all-2
+    original_repo: jjheffernan/Grep.CatchEmAll2
+    parent: ZCW-Java8-1/Grep.CatchEmAll2
+    path: labs/java/25-grep-catch-em-all-2
+    track: java
+    order: 25
+    status: unstarted
+    jj_commits: 0
+
+  # ── Python Fundamentals ─────────────────────────────────
+  - id: python-fundamentals-part-01
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part1
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part1
+    path: labs/python/fundamentals/part-01
+    track: python
+    order: 1
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-06T18:34:53Z"
+    last_jj: "2022-07-06T18:43:53Z"
+
+  - id: python-fundamentals-part-02
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part2
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part2
+    path: labs/python/fundamentals/part-02
+    track: python
+    order: 2
+    status: completed
+    jj_commits: 3
+    first_jj: "2022-07-07T02:52:05Z"
+    last_jj: "2022-07-08T05:26:06Z"
+
+  - id: python-fundamentals-part-03
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part3
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part3
+    path: labs/python/fundamentals/part-03
+    track: python
+    order: 3
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-07-08T05:29:31Z"
+    last_jj: "2022-07-11T06:52:12Z"
+
+  - id: python-fundamentals-part-04
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part4
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part4
+    path: labs/python/fundamentals/part-04
+    track: python
+    order: 4
+    status: completed
+    jj_commits: 8
+    first_jj: "2022-07-11T05:28:32Z"
+    last_jj: "2022-07-13T04:50:44Z"
+
+  - id: python-fundamentals-part-05
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part5
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part5
+    path: labs/python/fundamentals/part-05
+    track: python
+    order: 5
+    status: completed
+    jj_commits: 7
+    first_jj: "2022-07-11T05:39:18Z"
+    last_jj: "2022-07-12T19:17:47Z"
+
+  - id: python-fundamentals-part-06
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part6
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part6
+    path: labs/python/fundamentals/part-06
+    track: python
+    order: 6
+    status: completed
+    jj_commits: 4
+    first_jj: "2022-07-13T05:04:52Z"
+    last_jj: "2022-07-18T04:15:49Z"
+
+  - id: python-fundamentals-part-07
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part7
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part7
+    path: labs/python/fundamentals/part-07
+    track: python
+    order: 7
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-07-14T22:48:32Z"
+    last_jj: "2022-07-18T03:03:23Z"
+
+  - id: python-fundamentals-part-08
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part8
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part8
+    path: labs/python/fundamentals/part-08
+    track: python
+    order: 8
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-18T03:07:51Z"
+    last_jj: "2022-07-18T05:35:46Z"
+
+  - id: python-fundamentals-part-09
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part9
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part9
+    path: labs/python/fundamentals/part-09
+    track: python
+    order: 9
+    status: completed
+    jj_commits: 6
+    first_jj: "2022-07-18T03:19:44Z"
+    last_jj: "2022-07-25T05:59:21Z"
+
+  - id: python-fundamentals-part-10
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part10
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part10
+    path: labs/python/fundamentals/part-10
+    track: python
+    order: 10
+    status: completed
+    jj_commits: 7
+    first_jj: "2022-07-18T03:22:37Z"
+    last_jj: "2022-08-08T06:44:30Z"
+
+  - id: python-fundamentals-part-11
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part11
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part11
+    path: labs/python/fundamentals/part-11
+    track: python
+    order: 11
+    status: completed
+    jj_commits: 11
+    first_jj: "2022-07-18T03:29:11Z"
+    last_jj: "2022-08-08T06:51:53Z"
+
+  - id: python-fundamentals-part-12
+    original_repo: jjheffernan/PythonFundamentals.Exercises.Part12
+    parent: ZCW-Data3-1/PythonFundamentals.Exercises.Part12
+    path: labs/python/fundamentals/part-12
+    track: python
+    order: 12
+    status: completed
+    jj_commits: 3
+    first_jj: "2022-07-18T03:48:02Z"
+    last_jj: "2022-07-18T07:56:20Z"
+
+  - id: python-13-dice-roller
+    original_repo: jjheffernan/DE-2d1-Dice-Roller
+    parent: Zipcoder/DE-2d1-Dice-Roller
+    path: labs/python/13-dice-roller
+    track: python
+    order: 13
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-07-13T05:49:37Z"
+    last_jj: "2022-07-13T05:49:37Z"
+
+  - id: python-14-dir-tree
+    original_repo: jjheffernan/DirTree
+    parent: ZCW-Data3-1/DirTree
+    path: labs/python/14-dir-tree
+    track: python
+    order: 14
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-14T22:49:43Z"
+    last_jj: "2022-07-15T19:14:13Z"
+
+  - id: python-15-py-json-yaml
+    original_repo: jjheffernan/PyJsonYaml
+    parent: Zipcoder/PyJsonYaml
+    path: labs/python/15-py-json-yaml
+    track: python
+    order: 15
+    status: completed
+    jj_commits: 3
+    first_jj: "2022-07-13T14:45:56Z"
+    last_jj: "2022-07-14T04:32:46Z"
+
+  - id: python-16-basic-stats
+    original_repo: jjheffernan/Py-BasicStats
+    parent: Zipcoder/Py-BasicStats
+    path: labs/python/16-basic-stats
+    track: python
+    order: 16
+    status: completed
+    jj_commits: 9
+    first_jj: "2022-07-15T05:34:06Z"
+    last_jj: "2022-08-15T06:21:40Z"
+
+  - id: python-17-data-acquisition
+    original_repo: jjheffernan/PythonFundamentals.Labs.DataAcqusitionLab
+    parent: ZipCodeCore/PythonFundamentals.Labs.DataAcqusitionLab
+    path: labs/python/17-data-acquisition
+    track: python
+    order: 17
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-07-22T15:24:54Z"
+    last_jj: "2022-08-08T07:01:44Z"
+
+  - id: python-18-rsvp-log-parser
+    original_repo: jjheffernan/PythonFundamentals.Labs.RSVPAgentProcessingLogParser
+    parent: ZipCodeCore/PythonFundamentals.Labs.RSVPAgentProcessingLogParser
+    path: labs/python/18-rsvp-log-parser
+    track: python
+    order: 18
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-08-04T05:52:40Z"
+    last_jj: "2022-08-04T05:52:40Z"
+
+  - id: python-19-ntz-py
+    original_repo: jjheffernan/ntz-py
+    parent: ZipCodeCore/ntz-py
+    path: labs/python/19-ntz-py
+    track: python
+    order: 19
+    status: completed
+    jj_commits: 4
+    first_jj: "2022-08-05T14:00:48Z"
+    last_jj: "2022-08-08T07:02:52Z"
+
+  - id: python-20-lotto-powerball
+    original_repo: jjheffernan/py-lotto-powerball
+    parent: xt0fer/py-lotto-powerball
+    path: labs/python/20-lotto-powerball
+    track: python
+    order: 20
+    status: completed
+    jj_commits: 8
+    first_jj: "2022-08-21T21:58:34Z"
+    last_jj: "2022-08-22T05:28:42Z"
+
+  - id: python-21-pandas-intro
+    original_repo: jjheffernan/PandasIntro1
+    parent: ZCW-Data3-1/PandasIntro1
+    path: labs/python/21-pandas-intro
+    track: python
+    order: 21
+    status: unstarted
+    jj_commits: 0
+
+  - id: python-22-list-dict-exercises
+    original_repo: jjheffernan/PyListDictExs
+    parent: ZCW-Data3-1/PyListDictExs
+    path: labs/python/22-list-dict-exercises
+    track: python
+    order: 22
+    status: unstarted
+    jj_commits: 0
+
+  - id: python-23-jupyter-de-intro
+    original_repo: jjheffernan/jupyter-notebooks.data-engineering
+    parent: ZCW-Data3-1/jupyter-notebooks.data-engineering
+    path: labs/python/23-jupyter-de-intro
+    track: python
+    order: 23
+    status: unstarted
+    jj_commits: 0
+
+  # ── Data Engineering ──────────────────────────────────────
+  - id: de-01-pandas-intro
+    original_repo: jjheffernan/PandasIntro1
+    parent: ZCW-Data3-1/PandasIntro1
+    path: labs/data-engineering/01-pandas-intro
+    track: data-engineering
+    order: 1
+    status: unstarted
+    jj_commits: 0
+    note: "Same repo as python-21; DE track entry point"
+
+  - id: de-02-pandas-1-2dot1
+    original_repo: jjheffernan/Pandas1-2dot1
+    parent: xt0fer/Pandas1-2dot1
+    path: labs/data-engineering/02-pandas-1-2dot1
+    track: data-engineering
+    order: 2
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-20T16:01:59Z"
+    last_jj: "2022-07-20T20:27:48Z"
+
+  - id: de-03-wes-ch5-pandas
+    original_repo: jjheffernan/WesCh5
+    parent: ZipCodeCore/WesCh5-pandas
+    path: labs/data-engineering/03-wes-ch5-pandas
+    track: data-engineering
+    order: 3
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-07-27T17:04:44Z"
+    last_jj: "2022-07-27T17:04:44Z"
+
+  - id: de-04-wes-ch4-numpy
+    original_repo: jjheffernan/WesCh4-numpy
+    parent: ZipCodeCore/WesCh4-numpy
+    path: labs/data-engineering/04-wes-ch4-numpy
+    track: data-engineering
+    order: 4
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-28T02:59:28Z"
+    last_jj: "2022-08-01T07:45:08Z"
+
+  - id: de-05-libraries
+    original_repo: jjheffernan/DataEngineering.Labs.Libraries
+    parent: ZipCodeCore/DataEngineering.Labs.Libraries
+    path: labs/data-engineering/05-libraries
+    track: data-engineering
+    order: 5
+    status: completed
+    jj_commits: 6
+    first_jj: "2022-07-21T01:45:54Z"
+    last_jj: "2022-08-24T18:01:33Z"
+
+  - id: de-06-registered-voters-wilmington
+    original_repo: jjheffernan/DataEngineering.Labs.RegisteredVotersFileWilmingtonDE
+    parent: ZipCodeCore/DataEngineering.Labs.RegisteredVotersFileWilmingtonDE
+    path: labs/data-engineering/06-registered-voters-wilmington
+    track: data-engineering
+    order: 6
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-08-08T06:17:56Z"
+    last_jj: "2022-08-08T06:17:56Z"
+
+  - id: de-07-grep
+    original_repo: jjheffernan/DataEngineering.Labs.grep
+    parent: ZCW-Data3-1/DataEngineering.Labs.grep
+    path: labs/data-engineering/07-grep
+    track: data-engineering
+    order: 7
+    status: completed
+    jj_commits: 4
+    first_jj: "2022-08-12T13:48:38Z"
+    last_jj: "2022-08-19T03:21:53Z"
+
+  - id: de-08-wes-wrangling
+    original_repo: jjheffernan/WesWrangling
+    parent: Zipcoder/WesWrangling
+    path: labs/data-engineering/08-wes-wrangling
+    track: data-engineering
+    order: 8
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-08-01T19:59:29Z"
+    last_jj: "2022-08-08T05:43:35Z"
+
+  - id: de-09-noaa-locations
+    original_repo: jjheffernan/DataEngineering.Labs.NOAALocations
+    parent: ZipCodeCore/DataEngineering.Labs.NOAALocations
+    path: labs/data-engineering/09-noaa-locations
+    track: data-engineering
+    order: 9
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-08-21T21:57:05Z"
+    last_jj: "2022-08-21T21:57:05Z"
+
+  - id: de-10-pyspark-jupyter-test
+    original_repo: jjheffernan/PySpark-JupyterTest
+    parent: null
+    path: labs/data-engineering/10-pyspark-jupyter-test
+    track: data-engineering
+    order: 10
+    status: completed
+    jj_commits: 5
+    first_jj: "2022-08-16T21:09:18Z"
+    last_jj: "2022-08-18T03:02:58Z"
+    note: "Original repo, not a fork"
+
+  # ── SQL ───────────────────────────────────────────────────
+  - id: sql-01-build-and-destroy
+    original_repo: jjheffernan/SQL.BuildAndDestroy
+    parent: ZCW-Data3-1/SQL.BuildAndDestroy
+    path: labs/sql/01-build-and-destroy
+    track: sql
+    order: 1
+    status: completed
+    jj_commits: 1
+    first_jj: "2022-07-28T03:36:56Z"
+    last_jj: "2022-07-28T03:36:56Z"
+
+  - id: sql-02-give-me-the-goods
+    original_repo: jjheffernan/DE.SQL.GiveMeTheGoods
+    parent: ZCW-Data3-1/DE.SQL.GiveMeTheGoods
+    path: labs/sql/02-give-me-the-goods
+    track: sql
+    order: 2
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-07-28T21:44:07Z"
+    last_jj: "2022-07-28T21:56:37Z"
+
+  - id: sql-03-lets-get-together
+    original_repo: jjheffernan/SQL.LetsGetTogether
+    parent: ZCW-Data3-1/SQL.LetsGetTogether
+    path: labs/sql/03-lets-get-together
+    track: sql
+    order: 3
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-08-18T18:52:40Z"
+    last_jj: "2022-08-18T19:18:47Z"
+
+  - id: sql-04-postal-codes
+    original_repo: jjheffernan/SQL.PostalCodes
+    parent: ZCW-Data3-1/SQL.PostalCodes
+    path: labs/sql/04-postal-codes
+    track: sql
+    order: 4
+    status: unstarted
+    jj_commits: 0
+
+  - id: sql-05-pokemon-sql
+    original_repo: jjheffernan/PokemonSqlLab
+    parent: ZCW-Data3-1/PokemonSqlLab
+    path: labs/sql/05-pokemon-sql
+    track: sql
+    order: 5
+    status: completed
+    jj_commits: 3
+    first_jj: "2022-08-21T21:33:13Z"
+    last_jj: "2022-08-21T21:37:04Z"
+
+  - id: sql-06-databases-are-friendly
+    original_repo: jjheffernan/DatabasesAreFriendly
+    parent: ZCW-Data3-1/DatabasesAreFriendly
+    path: labs/sql/06-databases-are-friendly
+    track: sql
+    order: 6
+    status: unstarted
+    jj_commits: 0
+
+  # ── Kafka ─────────────────────────────────────────────────
+  - id: kafka-01-kafka3-data
+    original_repo: jjheffernan/Kafka3-Data
+    parent: ZCW-Data3-1/Kafka3-Data
+    path: labs/kafka/01-kafka3-data
+    track: kafka
+    order: 1
+    status: completed
+    jj_commits: 2
+    first_jj: "2022-08-22T19:14:14Z"
+    last_jj: "2022-08-25T04:23:51Z"
+
+  # ── Web ───────────────────────────────────────────────────
+  - id: web-01-css-beginnings
+    original_repo: jjheffernan/SeeEssEssBeginnings
+    parent: ZipCodeCore/CSS-Beginnings
+    path: labs/web/01-css-beginnings
+    track: web
+    order: 1
+    status: unstarted
+    jj_commits: 0
+
+  - id: web-02-js-for-zipcode
+    original_repo: jjheffernan/js-for-zipcode
+    parent: Francisco-Castro/js-for-zipcode
+    path: labs/web/02-js-for-zipcode
+    track: web
+    order: 2
+    status: unstarted
+    jj_commits: 0
+
+  # ── Reference (optional) ──────────────────────────────────
+  - id: ref-spark-with-python
+    original_repo: jjheffernan/Spark-with-Python
+    parent: xt0fer/Spark-with-Python
+    path: reference/spark-with-python
+    track: reference
+    order: 1
+    status: reference
+    jj_commits: 0
+
+  - id: ref-python-data-science-handbook
+    original_repo: jjheffernan/PythonDataScienceHandbook
+    parent: jakevdp/PythonDataScienceHandbook
+    path: reference/python-data-science-handbook
+    track: reference
+    order: 2
+    status: reference
+    jj_commits: 0
+
+  - id: ref-pip-module
+    original_repo: jjheffernan/PythonFundamentals.Labs.PipModule
+    parent: null
+    path: reference/pip-module
+    track: reference
+    order: 3
+    status: reference
+    jj_commits: 0
