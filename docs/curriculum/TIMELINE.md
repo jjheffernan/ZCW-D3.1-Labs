@@ -66,7 +66,7 @@ Chronological record of when JJ started and finished each lab, derived from GitH
 | 2022-08-21 | 2022-08-21 | 3 | PokemonSqlLab |
 | 2022-08-21 | 2022-08-22 | 8 | py-lotto-powerball |
 | 2022-08-22 | 2022-08-25 | 2 | Kafka3-Data |
-| 2022-08-25 | 2022-09-07 | 100 | Django-Auto-Forum 🚫 |
+| 2022-08-25 | 2022-09-07 | ~185 | Django-Auto-Forum 🚫 |
 | 2022-08-29 | 2026-06-25 | 28 | Notification-Rake-Project 🚫 |
 
 ## September 2022 — Cohort End
@@ -86,4 +86,4 @@ Chronological record of when JJ started and finished each lab, derived from GitH
 2. **Longest gap on a started lab:** Part10/Part11 took 3 weeks (Jul 18 → Aug 8)
 3. **Latest cohort lab:** Kafka3-Data (2022-08-25)
 4. **First lab ever:** Maven.TooLargeTooSmall (2022-06-23)
-5. **Most commits on a single lab:** EightOneQuiz1 (12), Django-Auto-Forum (100, capstone)
+5. **Most commits on a single lab:** Django-Auto-Forum (~185, capstone), EightOneQuiz1 (12)

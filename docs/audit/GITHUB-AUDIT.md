@@ -57,7 +57,7 @@ These are multi-week team or capstone efforts with independent lifecycles.
 | Repo | Type | JJ Commits | Period | Notes |
 |------|------|----------:|--------|-------|
 | [ScientificCalculator.Maven](https://github.com/jjheffernan/ScientificCalculator.Maven) | Team lab | 16 | Jun 2022 | Fork from `ZC8-3-1-team1group3` |
-| [Django-Auto-Forum](https://github.com/jjheffernan/Django-Auto-Forum) | Capstone | 100 | Aug–Sep 2022 | Original repo, pinned on profile |
+| [Django-Auto-Forum](https://github.com/jjheffernan/Django-Auto-Forum) | Capstone | ~185 | Aug–Sep 2022 | Original repo, pinned on profile |
 | [Notification-Rake-Project](https://github.com/jjheffernan/Notification-Rake-Project) | Capstone / ongoing | 28 | Aug 2022–present | Vehicle notification API |
 | [saleor-additive-commerce](https://github.com/jjheffernan/saleor-additive-commerce) | Capstone stub | 1 | Sep 2022 | Saleor e-commerce, single init commit |
 

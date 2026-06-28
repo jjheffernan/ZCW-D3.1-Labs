@@ -22,7 +22,7 @@ These repos stay **standalone** on GitHub. They are not migrated into the ZCW-D3
 | Parent | `ZC8-3-1-team1group3/ScientificCalculator.Maven` |
 | JJ commits | 16 |
 | Period | 2022-06-17 – 2022-06-27 |
-| Notes | Team Group 3 project during Java track. Forked from team org, not individual curriculum. |
+| Notes | Team Group 3 project during Java track. Forked from team org. Collaborators include **TamyahD** and **xt0fer** on GitHub. |
 
 **Recommended branches (on standalone repo):**
 - `as-is` → current master
@@ -38,7 +38,7 @@ These repos stay **standalone** on GitHub. They are not migrated into the ZCW-D3
 | URL | https://github.com/jjheffernan/Django-Auto-Forum |
 | Type | Capstone — Django forum for auto enthusiasts |
 | Parent | ORIGINAL (not a fork) |
-| JJ commits | 100 |
+| JJ commits | ~185 |
 | Period | 2022-08-25 – 2022-09-07 |
 | Notes | Pinned on GitHub profile. Full Django app with cloud content hosting. |
 

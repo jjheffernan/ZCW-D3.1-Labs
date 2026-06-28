@@ -116,7 +116,7 @@ Master index of all Zip Code Wilmington repos on [jjheffernan](https://github.co
 | # | Repo | JJ | Period |
 |--:|------|---:|--------|
 | 68 | [ScientificCalculator.Maven](https://github.com/jjheffernan/ScientificCalculator.Maven) | 16 | Jun 2022 |
-| 69 | [Django-Auto-Forum](https://github.com/jjheffernan/Django-Auto-Forum) | 100 | Aug–Sep 2022 |
+| 69 | [Django-Auto-Forum](https://github.com/jjheffernan/Django-Auto-Forum) | ~185 | Aug–Sep 2022 |
 | 70 | [Notification-Rake-Project](https://github.com/jjheffernan/Notification-Rake-Project) | 28 | Aug 2022–present |
 | 71 | [saleor-additive-commerce](https://github.com/jjheffernan/saleor-additive-commerce) | 1 | Sep 2022 |
 

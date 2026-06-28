@@ -38,7 +38,7 @@ Upstream parent (ZCW-Data3-1/Part1)
 REPO="Maven.TooLargeTooSmall"
 OWNER="jjheffernan"
 
-# Find first JJ commit
+> **Note:** Commit counts from `gh api ...&per_page=100` cap at 100. For repos with more history (e.g. Django-Auto-Forum ~185), paginate or use the `Link` header `rel="last"` page number.
 FIRST_JJ=$(gh api "repos/$OWNER/$REPO/commits?author=jjheffernan&per_page=100" \
   --jq '.[-1].sha')
 
