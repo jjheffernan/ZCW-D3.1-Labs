@@ -10,6 +10,7 @@ Monorepo documentation for consolidating [jjheffernan](https://github.com/jjheff
 | [Zipcode Repo Index](zipcode-repos/INDEX.md) | Master list of ~70 ZCW lab repos |
 | [Curriculum Progression](curriculum/PROGRESSION.md) | Subject tracks and recommended order |
 | [Commit Timeline](curriculum/TIMELINE.md) | Chronological view from GitHub history |
+| [Progress Tracker](PROGRESS.md) | Sprint completion % and filterable lab checklist |
 | [Migration Plan](migration/MIGRATION-PLAN.md) | Step-by-step monorepo consolidation |
 | [Branch Strategy](migration/BRANCH-STRATEGY.md) | `as-is`, `stock`, and `refresher` branches |
 | [Monorepo Structure](migration/MONOREPO-STRUCTURE.md) | Target directory layout |

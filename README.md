@@ -8,6 +8,7 @@ Originally ~70 separate repos on [jjheffernan](https://github.com/jjheffernan). 
 
 - [Documentation index](docs/README.md)
 - [All Zipcode repos](docs/zipcode-repos/INDEX.md)
+- [Progress tracker](docs/PROGRESS.md)
 - [Migration plan](docs/migration/MIGRATION-PLAN.md)
 - [Curriculum progression](docs/curriculum/PROGRESSION.md)
 - [Commit timeline](docs/curriculum/TIMELINE.md)
